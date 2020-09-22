@@ -15,12 +15,12 @@ function App() {
         fetchUrl={requests.fetchNetflixOriginals}
         isLargeRow
       />
-      <Row title="Trending Now" fetchUr={requests.fetchTrending} />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
       <Row title="Top Rated" fetchUrl={requests.fetchTopRated} />
-      <Row title="Romance" fetchUrl-={requests.fetchRomanceMovies} />
-      <Row title="Horror" fetchUrl-={requests.fetchHorrorMovies} />
-      <Row title="Documentaries" fetchUrl-={requests.fetchDocumentaries} />
-      <Row title="Action" fetchUrl-={requests.fetchActionMovies} />
+      <Row title="Romance" fetchUrl={requests.fetchRomanceMovies} />
+      <Row title="Horror" fetchUrl={requests.fetchHorrorMovies} />
+      <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
+      <Row title="Action" fetchUrl={requests.fetchActionMovies} />
     </div>
   );
 }
